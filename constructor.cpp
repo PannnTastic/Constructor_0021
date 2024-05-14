@@ -23,4 +23,9 @@ class mahasiswa{
             nim = pnim;
             nama = pnama;
         };
+        void cetak(){
+            cout << "ID   : " << nim << endl;
+            cout << "Nama : " << nama << endl;
+            cout << endl;
+        };
 };
