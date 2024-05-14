@@ -54,4 +54,6 @@ int main()
     mhs2.printall();
     mhs3.printall();
     mhs4.printall();
+
+    cout << "Akses dari luar object = " << mahasiswa :: getnim() << endl;
 }
