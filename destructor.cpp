@@ -45,4 +45,5 @@ void angka :: isi(){
 
 int main(){
     angka belajarcpp(3);
+    angka *ptrbelajarcpp = new angka (5);
 }
