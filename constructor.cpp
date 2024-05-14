@@ -12,5 +12,11 @@ class mahasiswa{
             nama = "";
         };
 
-       
+        mahasiswa(int pnim){
+            nim = pnim;
+        };
+
+        mahasiswa(string pnama){
+            nama = pnama;
+        };
 };
