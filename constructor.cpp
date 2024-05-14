@@ -19,4 +19,8 @@ class mahasiswa{
         mahasiswa(string pnama){
             nama = pnama;
         };
+        mahasiswa(string pnama,int pnim){
+            nim = pnim;
+            nama = pnama;
+        };
 };
