@@ -18,7 +18,8 @@ public:
 
     static int getnim() { return nim; }
 
-    mahasiswa (string pnama){
+    mahasiswa(string pnama)
+    {
         nama = pnama;
         setid();
     }
@@ -26,18 +27,21 @@ public:
 
 int mahasiswa::nim = 0;
 
-void mahasiswa ::setid(){
+void mahasiswa ::setid()
+{
     id = ++nim;
 }
 
-void mahasiswa :: printall(){
+void mahasiswa ::printall()
+{
     cout << "ID   : " << id << endl;
     cout << "Nama : " << nama << endl;
     cout << endl;
 }
 
-int main (){
-    
+int main()
+{
+
     mahasiswa mhs1("Lia Kurnia");
     mahasiswa mhs2("Asroni");
     mahasiswa mhs3("Andi Kurniawan");
