@@ -15,6 +15,7 @@ public:
     mahasiswa(string pnama)
     {
         nama = pnama;
+        setid();
     }
 };
 
@@ -27,8 +28,8 @@ void mahasiswa ::setid()
 
 void mahasiswa::printall()
 {
-    cout << "ID   " << id << endl;
-    cout << "Nama " << nama << endl;
+    cout << "ID   = " << id << endl;
+    cout << "Nama = " << nama << endl;
     cout << endl;
 }
 
