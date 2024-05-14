@@ -17,3 +17,10 @@ angka :: angka(int i) {
     arr = new int[i];
     isi();
 }
+
+angka ::~angka(){
+    cout << endl;
+    cetak();
+    delete[]arr;
+    cout << "Alamat array sudah dilepaskan" << endl;
+}
