@@ -19,7 +19,7 @@ class mahasiswa{
         mahasiswa(string pnama){
             nama = pnama;
         };
-        mahasiswa(string pnama,int pnim){
+        mahasiswa(int pnim,string pnama){
             nim = pnim;
             nama = pnama;
         };
@@ -29,3 +29,15 @@ class mahasiswa{
             cout << endl;
         };
 };
+
+int main(){
+    mahasiswa mhs1;
+    mahasiswa mhs2(20);
+    mahasiswa mhs3("Indra");
+    mahasiswa mhs4(30,"Fauzan");
+
+    mhs1.cetak();
+    mhs2.cetak();
+    mhs3.cetak();
+    mhs4.cetak();
+}
