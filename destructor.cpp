@@ -8,4 +8,12 @@ class angka{
     public : 
         angka(int);
         ~angka();
+        void cetak();
+        void isi();
 };
+
+angka :: angka(int i) {
+    panjang = i;
+    arr = new int[i];
+    isi();
+}
