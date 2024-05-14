@@ -44,6 +44,9 @@ int main()
 
     mahasiswa mhs1("Lia Kurnia");
     mahasiswa mhs2("Asroni");
+
+    mahasiswa :: setnim(9);
+
     mahasiswa mhs3("Andi Kurniawan");
     mahasiswa mhs4("Joko Purbo");
 
